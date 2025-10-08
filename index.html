@@ -11,7 +11,7 @@
     </header>
     <section>
         <form action="" method="get">
-            <!-- <fieldset>
+            <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="userName">Nome:</label>
                 <input type="text" name="userName" required>
@@ -37,19 +37,19 @@
                 <legend>Perfil</legend>
                 <p>Gênero:</p>
 
-                <input type="radio" name="userGender" value="Feminino">
-                <label for="userGender">Feminino</label>
+                <input id="feminino" type="radio" name="userGender" value="feminino">
+                <label for="feminino">Feminino</label>
 
-                <input type="radio" name="userGender" value="Masculino">
-                <label for="userGender">Masculino</label>
+                <input id="masculino" type="radio" name="userGender" value="masculino">
+                <label for="masculino">Masculino</label>
 
-                <input type="radio" name="userGender" value="notInformed">
-                <label for="userGender">Prefiro Não Informar</label>
+                <input id="notInformed" type="radio" name="userGender" value="notInformed">
+                <label for="notInformed">Prefiro Não Informar</label>
 
                 <br>
 
-                <label for="userMaritalStatus">Estado Civil:</label>
-                <select name="userMaritalStatus">
+                <label for="marital">Estado Civil:</label>
+                <select id="marital" name="userMaritalStatus">
                     <option value="notInformed">Selecione...</option>
                     <option value="married">Casado (a)</option>
                     <option value="single">Solteiro (a)</option>
@@ -58,8 +58,8 @@
                     <option value="stable-union">União Estável</option>
                 </select>
                 <br>
-                <label for="userState">Estado</label>
-                <select name="userState" required>
+                <label for="state">Estado</label>
+                <select id="state" name="userState" required>
                     <option value="notinformed">Selecione...</option>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
@@ -89,12 +89,10 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
-                    
                     <br>
-
-                    <label for="userCity">Cidade:</label>
-                    <input type="text" name="userCity">
-            </fieldset> -->
+                    <label for="city">Cidade:</label>
+                    <input id="city" type="text" name="userCity">
+            </fieldset>
 
             <fieldset>
                 <legend>Hábitos</legend>
