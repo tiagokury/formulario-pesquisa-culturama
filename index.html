@@ -11,7 +11,7 @@
     </header>
     <section>
         <form action="" method="get">
-            <fieldset>
+            <!-- <fieldset>
                 <legend>Dados Pessoais</legend>
                 <label for="name">Nome:</label>
                 <input id="name" type="text" name="userName" required>
@@ -109,7 +109,18 @@
                 <br>
                 <input id="x" type="checkbox" name="socialMedia" value="x">
                 <label for="x">X</label>
-            </fieldset>
+            --> 
+
+            <label for="music">Estilo Musical:</label>
+            <input list="musicTypes" type="text" name="userMusic" id="music">
+                <datalist id="musicTypes">
+                    <option value="Rock">
+                    <option value="Pop">
+                    <option value="Pagode">
+                    <option value="Sertanejo">
+                </datalist>
+
+            </fieldset>    
 
             <button type="submit">Enviar</button>
         </form>
