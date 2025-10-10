@@ -109,7 +109,7 @@
                 <br>
                 <input id="x" type="checkbox" name="socialMedia" value="x">
                 <label for="x">X</label>
-            --> 
+             
 
             <label for="music">Estilo Musical:</label>
             <input list="musicTypes" type="text" name="userMusic" id="music">
@@ -123,7 +123,27 @@
             <label for="color">Cor Favorita:</label>
             <input type="color" name="userColor" id="color">
 
-            </fieldset>    
+            </fieldset> -->
+            
+            <fieldset>
+                <legend>Opinião</legend>
+                <p>Escala de Satisfação:</p>
+                <input type="radio" name="userSatisfaction" id="great" value="otima">
+                <label for="great">Ótima</label>
+
+                <input type="radio" name="userSatisfaction" id="good" value="boa">
+                <label for="good">Boa</label>
+
+                <input type="radio" name="userSatisfaction" id="regular" value="regular">
+                <label for="regular">Regular</label>
+
+                <input type="radio" name="userSatisfaction" id="bad" value="ruim">
+                <label for="bad">Ruim</label>
+
+                <label for="opinion">Comentário:</label>
+                <textarea name="userOpinion" id="opinion" placeholder="Digite seu Comentário..."></textarea>
+
+            </fieldset>
 
             <button type="submit">Enviar</button>
         </form>
