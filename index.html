@@ -139,13 +139,26 @@
 
                 <input type="radio" name="userSatisfaction" id="bad" value="ruim">
                 <label for="bad">Ruim</label>
-
+                <br>
                 <label for="opinion">Comentário:</label>
                 <textarea name="userOpinion" id="opinion" placeholder="Digite seu Comentário..."></textarea>
 
             </fieldset>
 
+            <fieldset>
+                <legend>Confirmações</legend>
+
+                <input type="checkbox" name="userLgpdTerm" id="userLgpd" value="accepted">
+                <label for="userLgpd">Estou ciente sobre a LGPD.</label>
+                <br>    
+                <input type="checkbox" name="userEmailTerm" id="userEmailTerm" value="accepted">
+                <label for="userLgpd">Eu aceito receber e-mais.</label>
+
+            </fieldset>
+
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
         </form>
     </section>
 </body>
